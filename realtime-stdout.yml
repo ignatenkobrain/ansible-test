@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+  gather_facts: no
+  tasks:
+    - shell: |
+        echo 1
+        sleep 10
+        echo 2
+        sleep 10
+        echo 3
